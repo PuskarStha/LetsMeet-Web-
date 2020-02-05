@@ -1,0 +1,117 @@
+.signInPageBG{
+padding:0;
+
+background:rgba(0, 0, 0, 0.7);;
+font-family: sans-serif;
+}
+.signupPageBG{
+    height:100%;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.signIn-Box{
+    
+    margin-top: 50px;
+ width: 350px;
+ padding:40px;
+ position: absolute;
+ top:50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background:rgba(0, 0, 0, 0.8);
+ text-align: center;
+ border-radius: 30px;
+ box-shadow: 1px 1px 5px aqua;
+
+}
+.signIn-Box h1{
+    color: white;
+    
+}
+
+
+.signIn-Box input[type="text"], .signIn-Box input[type="password"]{
+
+    border:0;
+    background: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline:none;
+    border-radius: 24px;
+    transition: 0.4s;
+    
+
+}
+
+.signIn-Box input[type="text"]:focus, .signIn-Box input[type="password"]:focus{
+     width: 300px;
+     border-color:#2ecc68;
+     background: #ffffff;
+     
+    
+}
+
+.signIn-Box input[type="text"]:hover,.signIn-Box input[type="password"]:hover{
+    width: 300px;
+    border-color:#2ecc68;
+    background: #ffffff;
+}
+
+.signIn-Box input[type="submit"]{
+
+    
+    border:0;
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #b1f80a;
+    padding: 14px 40px;
+    outline:none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+.signIn-Box input[type="submit"]:hover{
+    
+    background:#0a0a0af6 ;
+    box-shadow: 1px 2px 10px whitesmoke;
+   
+  
+}
+
+.signIn-Box input[type="button"]{
+
+    
+    border:0;
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #b11af7;
+    padding: 14px 40px;
+    outline:none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+.signIn-Box input[type="button"]:hover{
+    
+    background:#0a0a0af6 ;
+    box-shadow: 1px 2px 10px whitesmoke;
+   
+  
+}
