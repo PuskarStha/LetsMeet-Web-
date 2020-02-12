@@ -1,21 +1,20 @@
 .signInPageBG{
-padding:0;
 
-background:rgba(0, 0, 0, 0.7);;
-font-family: sans-serif;
+width:inherit;
+margin-top: 30px;
 }
 .signupPageBG{
-    height:100%;
-    width: 100%;
-    margin-top: 40px;
+ 
+    width:inherit;
+    margin-top: 30px;
 }
 
 .signIn-Box{
     
-    margin-top: 50px;
+  
  width: 350px;
  padding:40px;
- position: absolute;
+ position: relative;
  top:50%;
  left: 50%;
  transform: translate(-50%, -50%);

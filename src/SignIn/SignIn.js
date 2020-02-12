@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 class SignIn extends Component{
     render(){
 return(
-<div className="signInPageBG">
+
     <div className="signIn-Box">
         <h1>Log In</h1>
         <input type="text" placeholder='Email/Username' />
@@ -17,7 +17,7 @@ return(
        <Link to='/signup'>
         <input type="button"value='SignUp' />
         </Link>
-    </div>
+    
     </div>
 );
     }

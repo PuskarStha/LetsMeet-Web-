@@ -1,9 +1,13 @@
 import React from 'react';
-import'./Home.css'
+import'./Home.css';
+
 
 const Home =(props)=>(
     <div className="homecss">
-        This is the Home Page.
+     <h3>   This is the Home Page.</h3>
+
+
+        
         <div className="pictu re">
     
         </div>
